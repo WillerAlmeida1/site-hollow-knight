@@ -1,10 +1,23 @@
 body {
     background-color:rgba(203, 204, 204, 0.692);
+    font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
 }
 
 #title, .subtitle, .post_title {
     color: rgb(34, 34, 43);
 
+}
+
+#title {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+a {
+    text-decoration-line: underline;
+    color: rgba(96, 175, 175, 0.692);
 }
 
 .post_title {
@@ -27,13 +40,28 @@ body {
 .post_content {
     margin: 0;
     margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: justify;
 }
 
 .post_image {
     margin-bottom: 15px;
+    width: 100%;
 }
 
 .photo {
     border-radius: 15px;
     border: 2px solid black;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.listadelinks {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.listadelinks li a {
+    color: #505050;
+    text-decoration: none;
 }
